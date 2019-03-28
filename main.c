@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
 
-=======
-#include <SDL.h>
->>>>>>> dd31b47dbd4ed4f1d77e2e7f410d04d72e44d450
 #include <SDL2/SDL_image.h>
 #include <time.h>
 #include "main.h"
@@ -29,8 +25,7 @@ int main(int argc, char *argv[])
 
      game myGame;
      gameState state;
-    // double *paddlex=(15);
-    // double *paddley=(SCREEN_HEIGHT-10);
+
      SDL_Rect paddle; //on déclare une instance de raquette
      ball ball;        //pareil pour la balle
      int i;
@@ -187,22 +182,13 @@ void cutBitmapTexture(game *myGame,gameState state, SDL_Rect paddle, ball ball, 
 
 
                     SDL_RenderCopy(myGame->g_pRenderer,myGame->g_texture,&rectangleSource,&rectangleDest); //on crée une copie du sprite que l'on vient de créer.
-<<<<<<< HEAD
+
                     SDL_DestroyTexture(myGame->g_texture); //on détruit l'ancienne copie pour libérer la mémoire.
 
 
-=======
+
 SDL_DestroyTexture(myGame->g_texture); //on détruit l'ancienne copie pour libérer la mémoire.
 
-                    /*if(state.right)
-                        SDL_RenderCopy(myGame->g_pRenderer,myGame->g_texture,&rectangleSource,&rectangleDest); // Copie du sprite grâce au SDL_Renderer
-                    if(state.left)
-                        SDL_RenderCopyEx(myGame->g_pRenderer,myGame->g_texture,&rectangleSource,&rectangleDest,0,0,SDL_FLIP_HORIZONTAL);*/
-
-                    //SDL_FLIP_NONE
-                    //SDL_FLIP_HORIZONTAL
-                    //SDL_FLIP_VERTICAL
->>>>>>> dd31b47dbd4ed4f1d77e2e7f410d04d72e44d450
 
 
 
@@ -244,21 +230,21 @@ SDL_DestroyTexture(myGame->g_texture); //on détruit l'ancienne copie pour libére
                 if(myGame->g_texture){
                     //1s = 1000ms
 
-<<<<<<< HEAD
+
                     rectangleSource.x=0;//1 image tous les 100ms
-=======
+
                        rectangleSource.x=0;//1 image tous les 100ms
->>>>>>> dd31b47dbd4ed4f1d77e2e7f410d04d72e44d450
+
                     rectangleSource.y=0;
                     rectangleSource.w=24;//1 image = w:128 et h:82
                     rectangleSource.h=24;
 
                     //Définition du rectangle dest pour dessiner le png
-<<<<<<< HEAD
+
                     rectangleDest.x=ball.x;//debut x
-=======
+
                  rectangleDest.x=ball.x;//debut x
->>>>>>> dd31b47dbd4ed4f1d77e2e7f410d04d72e44d450
+
                     rectangleDest.y=ball.y;//debut y
                     rectangleDest.w=24; //Largeur
                     rectangleDest.h=24; //Hauteur
@@ -267,18 +253,8 @@ SDL_DestroyTexture(myGame->g_texture); //on détruit l'ancienne copie pour libére
                     SDL_RenderCopy(myGame->g_pRenderer,myGame->g_texture,&rectangleSource,&rectangleDest);
                     SDL_DestroyTexture(myGame->g_texture);
 
-<<<<<<< HEAD
 
-=======
-                    /*if(state.right)
-                        SDL_RenderCopy(myGame->g_pRenderer,myGame->g_texture,&rectangleSource,&rectangleDest); // Copie du sprite grâce au SDL_Renderer
-                    if(state.left)
-                        SDL_RenderCopyEx(myGame->g_pRenderer,myGame->g_texture,&rectangleSource,&rectangleDest,0,0,SDL_FLIP_HORIZONTAL);*/
 
-                    //SDL_FLIP_NONE
-                    //SDL_FLIP_HORIZONTAL
-                    //SDL_FLIP_VERTICAL
->>>>>>> dd31b47dbd4ed4f1d77e2e7f410d04d72e44d450
 
 
 
@@ -355,18 +331,7 @@ for (i=0;i<32;i++){
                  }
                   SDL_DestroyTexture(myGame->g_texture);
 
-<<<<<<< HEAD
 
-=======
-                    /*if(state.right)
-                        SDL_RenderCopy(myGame->g_pRenderer,myGame->g_texture,&rectangleSource,&rectangleDest); // Copie du sprite grâce au SDL_Renderer
-                    if(state.left)
-                        SDL_RenderCopyEx(myGame->g_pRenderer,myGame->g_texture,&rectangleSource,&rectangleDest,0,0,SDL_FLIP_HORIZONTAL);*/
-
-                    //SDL_FLIP_NONE
-                    //SDL_FLIP_HORIZONTAL
-                    //SDL_FLIP_VERTICAL
->>>>>>> dd31b47dbd4ed4f1d77e2e7f410d04d72e44d450
 
 
 

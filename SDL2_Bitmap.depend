@@ -1008,11 +1008,11 @@
 
 1497402902 c:\users\seb\documents\cours ludus\programmation c\cours_c_ludus2b-sdl_bitmap\cours_c_ludus2b-sdl_bitmap\sdl2_bitmap\briques.h
 
-<<<<<<< HEAD
-1497373876 source:c:\users\seb\documents\cours ludus\programmation c++\tp_casse_briques_sutterlin_sebastien-master\tp_casse_briques_sutterlin_sebastien-master\main.c
+1497402902 D
+
+1553736059 source:c:\users\seb\documents\cours ludus\programmation c++\tp_casse_briques_sutterlin_sebastien-master\tp_casse_briques_sutterlin_sebastien-master\main.c
 	<stdio.h>
 	<stdlib.h>
-	<SDL.h>
 	<SDL2/SDL_image.h>
 	<time.h>
 	"main.h"
@@ -1049,5 +1049,5 @@
 
 1497373876 c:\users\seb\documents\cours ludus\programmation c++\tp_casse_briques_sutterlin_sebastien-master\tp_casse_briques_sutterlin_sebastien-master\raquette.h
 
-=======
->>>>>>> dd31b47dbd4ed4f1d77e2e7f410d04d72e44d450
+1497373876 1b47dbd4ed4f1d77e2e7f410d04d72e44d450
+
